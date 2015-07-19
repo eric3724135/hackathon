@@ -1,0 +1,414 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/all_bg.png);
+  height: 100%;
+  width: 100%;
+}
+
+#left_menu {
+  display: block;
+  float: left;
+  width: 228px;
+  background-color: #816d58;
+}
+
+#main_con {
+  position:absolute;
+  left:20px;
+  display: block;
+  width: 742px;
+  float: left;
+  background-attachment: fixed;
+  background-image: url(../images/tw_bg.jpg);
+  background-repeat: repeat;
+  background-position: left top;
+/*   min-height: 865px; */
+}
+
+#seardh_bar_1 {
+  display: block;
+  font-family: Verdana, Geneva, sans-serif, "新細明體", "細明體";
+  font-size: 12px;
+  color: #7C5823;
+  margin-top: 7px;
+  margin-left: 9px;
+  width: 723px;
+  height: 72px;
+  background-color: #fffcf8;
+  border: 1px solid #cccccc;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+#contaxt {
+  position:absolute;
+  left:375px;	
+  display: block;
+  float: left;
+  width: 780px;
+  height: 870px;
+  margin-top: 15px;
+  margin-left: 6px;
+  background-color: #816d58;
+}
+
+#main_top {
+  display: block;
+  background-image: url(../images/contaxt_top.jpg);
+  height: 20px;
+}
+
+#main_left {
+  position:absolute;
+  left:1px;	
+  display: block;
+  background-image: url(../images/right_bg.jpg);
+  background-color: #816d58;
+  width: 18px;
+  height: 407px;
+/*   margin-right: 742px; */
+}
+
+#main_right {
+  position:absolute;
+  left:760px;
+  display: block;
+  background-image: url(../images/right_bg.jpg);
+  background-color: #816d58;
+  width: 18px;
+  height: 407px;
+/*   margin-left: 742px; */
+}
+
+#seardh_bar_1{
+	display:block;
+	font-family: Verdana, Geneva, sans-serif, "新細明體", "新細明體";
+	font-size: 12px;
+	color: #7C5823;
+	margin-top: 7px;
+	margin-left:9px;
+	width:723px;
+	height: 111px;
+	background-color: #fffcf8;
+	border: 1px solid #cccccc;
+}
+
+#d_list{
+	font-family: Verdana, Geneva, sans-serif, "新細明體", "新細明體";
+	font-size: 14px;
+	color: #666;
+	letter-spacing: 1px;
+	border: 1px solid #c7945a;
+	height: 24px;
+	width: 110px;
+
+}
+
+#tx_box{
+	font-family: Verdana, Geneva, sans-serif, "新細明體", "新細明體";
+	font-size: 12px;
+	color: #666;
+	letter-spacing: 1px;
+	border: 1px solid #c7945a;
+	height: 20px;
+	width: 90px;
+}
+
+.sm_tx{
+	display:block;
+	font-family: Verdana, Geneva, sans-serif, "新細明體", "新細明體";
+	font-size:12px;
+	color: #999;
+	padding-top:1px;
+}
+	
+#tw{
+	background-image: url(../images/tw.png);
+	height: 700px;
+	width: 723px;
+	margin-left:9px;
+	position: relative;
+	left: 0px;
+	top: 50px;
+	background-repeat: no-repeat;
+	background-position: 83px 23px;
+}
+	
+#keelung {
+	position:absolute;
+	left:520px;
+	top:38px;
+	z-index:1;
+}
+
+#taipei {
+	position:absolute;
+	left:471px;
+	top:49px;
+	z-index:1;
+}
+
+#n_taipei {
+	position:absolute;
+	left:472px;
+	top:76px;
+	z-index:1;
+}
+
+a.n_1:link{
+	color: #9e5010;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif, "新細明體", "新細明體";
+	font-size: 13px;
+	text-align: center;
+}
+
+a.n_1:hover {
+	color: #b26424;
+	background-color: #ffeed7;
+	border: 1px dotted #b26424;
+	font-size: 15px;
+	padding-top: 1px;
+	padding-right: 2px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+a.n_1:visited {
+	color:#9e5010;
+}
+
+#taoyuan {
+	position:absolute;
+	left:414px;
+	top:59px;
+	z-index:1;
+}
+
+#hsinchu {
+	position:absolute;
+	left:369px;
+	top:94px;
+	z-index:2;
+}
+
+#hsinchu_cinuty {
+	position:absolute;
+	left:414px;
+	top:107px;
+	z-index:1;
+}
+
+#Miaoli {
+	position:absolute;
+	left:382px;
+	top:141px;
+	z-index:1;
+}
+
+a.n_2:link{
+	color: #806710;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif, "新細明體", "新細明體";
+	font-size: 13px;
+	text-align: center;
+}
+
+a.n_2:hover {
+	color: #8f751b;
+	background-color: #fffed9;
+	border: 1px dotted #8f751b;
+	font-size: 15px;
+	padding-top: 1px;
+	padding-right: 2px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+a.n_2:visited {
+	color:#806710;
+}
+
+#taichung {
+	position:absolute;
+	left:360px;
+	top:183px;
+	z-index:1;
+}
+
+#changhua {
+	position:absolute;
+	left:312px;
+	top:223px;
+	z-index:1;
+}
+
+#nantou {
+	position:absolute;
+	left:395px;
+	top:240px;
+	z-index:1;
+}
+
+a.c:link{
+	color: #3b6c8b;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif, "新細明體", "新細明體";
+	font-size: 13px;
+	text-align: center;
+}
+
+a.c:hover {
+	color: #418bb9;
+	background-color: #eaf8ff;
+	border: 1px dotted #5c9cc4;
+	font-size: 15px;
+	padding-top: 1px;
+	padding-right: 2px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+a.c:visited {
+	color:#3b6c8b;
+}
+
+#yunlin {
+	position:absolute;
+	left:297px;
+	top:259px;
+	z-index:1;
+}
+
+#chiayi_c {
+	position:absolute;
+	left:271px;
+	top:306px;
+	z-index:1;
+}
+
+#chiayi {
+	position:absolute;
+	left:347px;
+	top:296px;
+	z-index:1;
+}
+
+a.w:link{
+	color: #614a3c;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif, "新細明體", "新細明體";
+	font-size: 13px;
+	text-align: center;
+}
+
+a.w:hover {
+	color: #87634c;
+	background-color: #fff2ea;
+	border: 1px dotted #916a52;
+	font-size: 15px;
+	padding-top: 1px;
+	padding-right: 2px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+a.w:visited {
+	color:#614a3c;
+}
+
+#tainan {
+	position:absolute;
+	left:301px;
+	top:345px;
+	z-index:1;
+}
+
+#pingtung {
+	position:absolute;
+	left:354px;
+	top:423px;
+	z-index:1;
+}
+
+#kaohsiung {
+	position:absolute;
+	left:362px;
+	top:362px;
+	z-index:1;
+}
+
+a.s:link{
+	color: #39643b;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif, "新細明體", "新細明體";
+	font-size: 13px;
+	text-align: center;
+}
+
+a.s:hover {
+	color: #48864b;
+	background-color: #edfff0;
+	border: 1px dotted #4d9b50;
+	font-size: 15px;
+	padding-top: 1px;
+	padding-right: 2px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+a.s:visited {
+	color:#39643b;
+}
+
+#ilan {
+	position:absolute;
+	left:493px;
+	top:127px;
+	z-index:1;
+}
+
+#hualien {
+	position:absolute;
+	left:464px;
+	top:238px;
+	z-index:1;
+}
+
+#taitung {
+	position:absolute;
+	left:420px;
+	top:372px;
+	z-index:1;
+}
+
+a.e:link{
+	color: #614d71;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif, "新細明體", "新細明體";
+	font-size: 13px;
+	text-align: center;
+}
+
+a.e:hover {
+	color: #7a618e;
+	background-color: #f9edff;
+	border: 1px dotted #7a618e;
+	font-size: 15px;
+	padding-top: 1px;
+	padding-right: 2px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+a.e:visited {
+	color:#614d71;
+}
+
+
